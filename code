@@ -1,0 +1,7 @@
+total_rent = int(input("Enter the total house rent =" ))
+food = int(input("Enter the total food cost =" ))
+water = int(input("Enter the total water expense =" ))
+eclric_Charges = int(input("Enter the total elcetricity charges =" ))
+person = int(input("Enter the number of person living in the room = " ))
+total_Amount = (total_rent + food + water + eclric_Charges)//person
+print("Each person will pay =", total_Amount)
